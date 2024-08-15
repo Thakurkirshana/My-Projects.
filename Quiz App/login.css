@@ -1,0 +1,79 @@
+body{
+    /* background-color: aquamarine; */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    /* display: inline-block; */
+    /* display: flex; */
+    /* justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+     /* background-color: #080303; */
+     background: linear-gradient(45deg, #00ff4c, #0d0359, #d3bc0b, #ff0000);
+
+background-size: 300% 300%; 
+color: rgb(255, 248, 248);
+font-size: xx-large;
+}
+.on{
+
+    /* color: rgb(254, 254, 248);
+    text-align: center;
+    border-radius: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+background-color: rgb(33, 94, 198);
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    align-items: center; */
+    /* text-align: center; */
+    text-decoration: none;
+    background-color: rgb(61, 107, 223);
+    border-style: none;
+    border-color: blanchedalmond ;
+    border-radius: 10px;
+    color: antiquewhite;
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    padding: 3px;
+    text-align: center;
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.55), 
+    10px 10px 15px rgba(70,70,70,0.12);
+
+  }
+  /* button{ */
+    /* margin:56px; */
+  /* } */
+
+  input{
+    color: rgb(239, 239, 239);
+    border-radius: 1px;
+    text-transform: uppercase;
+    background-color: transparent;
+    
+    /* margin-bottom: 25px;
+    /* border: none; */
+    /* background-color: transparent; */
+    /* box-shadow: inset -10px -10px 15px rgba(255,255,255,0,55); */
+    /* inset:10px 10px 15px rgba(70,70,70,0.12); */
+    /* box-shadow: inset -10px -10px 15px rgba(255,255,255,0,55); */
+    /* outline: none; */
+    /* width: 30%; */
+    margin-left: 1%;
+    /* padding: 3px; */
+    text-align: center;
+    font-size: xx-large;
+    /* width: 350px; */
+    /* position: absolute; */
+    /* transform: translate(-50%, -50%); */
+     /* top:50%;
+     bac\\\
+    left: 50%; */
+/* background-color:transparent; */
+   border-radius: 10px;
+   /* border-style: none; */
+
+   border-color: #ffffff;
+  
+ }
