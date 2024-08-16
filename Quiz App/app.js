@@ -294,6 +294,7 @@ var btn = document.getElementById('btn')
 //  },100)
 
 
+
 function nextQuestion(){
 var getOptions = document.getElementsByName('options')
   for (var i= 0 ; i<getOptions.length; i++){
@@ -323,6 +324,7 @@ btn.disabled = true
   
    if(index > questions.length -1 ){
       document.write('Your Percentage is ' +((score / questions.length)*100).toFixed(2))
+     
    }
    else{
       ques.innerText = questions[index].question
