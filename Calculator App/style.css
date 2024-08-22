@@ -5,7 +5,6 @@ div{
 
 }
 
-
 button:active{
     background-color: rgb(16, 16, 16);
     transform: translate(0.3);
@@ -20,44 +19,57 @@ button:active{
 
 
 .container{
-    background-color: rgb(117, 118, 152);
- width:fit-content;
+    /* margin-bottom: 50px; */
+    /* margin-top: 90px; */
+    /* background-color: rgb(117, 118, 152); */
+ /* width:fit-content; */
   border-width: 1px; 
  border-style:solid; 
- padding: 100px;
-padding: 100px;
-margin: auto;
+ /* padding: 100px; */
+padding: 40px;
+padding-top: 30px;
+/* margin:20px ; */
 box-shadow: 15px 15px 20px black;
-
-
  border-radius: 10px;
- border-style: none;
-}
+
+ background-color: #525252;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(146, 31, 31, 0.1);
+     /* padding: 50px;
+    width: 390px; */
+} 
 
 button{
-
-    /* border-style: none; */
-    background-color: black;
-    color: white;
+    border-style: none; 
+ background-color: rgb(193, 193, 193);
+    color: rgb(34, 31, 31);
    margin: 10px;
-        width: 70px;
-        height: 40px;
+        width: 90px;
+        height: 80px;
         border-radius: 5px;
         align-items: center;
         justify-content: center;
         font-size: 33px;
 }
 input{
-font-size: xx-large;
+    width:90%;
+    background-color: #efeff0;
+    color: #000000;
+    font-size: 2em;
+    padding: 12px;
+    text-align: right;
+    border-radius: 5px;
+    margin-bottom: 20px;
+/* font-size: xx-large;
     border-color: black;
     border-style: solid;
 color: rgb(0, 0, 0);
     background-color: blanchedalmond;
-    width:80%;
+    
    height: 40px;
-   border-radius: 7px;
+   /* border-radius: 7px; */
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-outline: none;
+outline: none; 
 
 }
 h1{
@@ -71,38 +83,18 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #7196c9;
     font-family: Arial, sans-serif;
 }
 .call{
-    background-color: rgb(49, 49, 120);
+    background-color: rgb(232, 22, 22);color: white;
 }
 button:hover {
     background-color: #5c5855;
 }
 
-
-
-/* .calculator {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 300px;
-}
-
-.display {
-    background-color: #222;
+.calll{
+    background-color: #f9a825;
     color: #fff;
-    font-size: 2em;
-    padding: 10px;
-    text-align: right;
-    border-radius: 5px;
-    margin-bottom: 20px;
 }
 
-.buttons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-} */

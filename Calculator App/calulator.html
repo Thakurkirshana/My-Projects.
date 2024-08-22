@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
 
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1></h1>
 
-</head>
-<body >
-       
-
-<h1></h1>
-
-<!-- <p id="abc">
+    <!-- <p id="abc">
 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique facere placeat voluptas eius rem ullam optio in labore quidem quibusdam voluptates iusto numquam, nesciunt molestias doloribus nihil omnis dolores maxime!
 <a id="anc" onclick="abc()" href="#">Read More</a>
 
@@ -25,75 +22,56 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique facere place
 
 </p> -->
 
-<!-- <button onclick="abc()" >Click me</button> -->
+    <!-- <button onclick="abc()" >Click me</button> -->
 
-
-
-
-
-
-
-
-
-<div class="container">
-    <h1>Meta Calculator</h1>
-    <div>
-
-
+    <div class="container">
+      <div>
         <!-- <div class="calculator">
             <div class="display" id="display">0</div>
             <div class="buttons">
                  -->
-        <input readonly type="text" name="" id="inp">
-        </div>
-        <br>
-<button  onclick="clr()"> CA</button>
-<button  onclick="clr( )"> C </button>
-<br>
-<br>
+        <input readonly type="text" name="" id="inp" />
+      </div>
 
-<div  class="asd">
-<button  onclick="dabaya( 9)"> 9 </button>
-<button  onclick="dabaya( 8)">  8</button>
-<button  onclick="dabaya(7 )">  7</button>
-<button  onclick="dabaya('+' )">  +</button>
-</div>
+      <button class="calll" onclick="clr()">AC</button>
+      <button  class="calll" onclick="clr( )">C</button>
+      <button class="calll" onclick="dabaya( '/')">/</button>
+     
+      <button class="calll" onclick="dabaya( '%')">%</button>
 
-<div>
-    <button  onclick="dabaya(6 )">  6</button>
-    <button  onclick="dabaya(5 )"> 5 </button>
-    <button  onclick="dabaya(4 )"> 4 </button>
-    <button  onclick="dabaya( '-')"> -  </button>
+      <div class="asd">
+        <button onclick="dabaya( 7)">7</button>
+        <button onclick="dabaya( 8)">8</button>
+        <button onclick="dabaya(9 )">9</button>
+        <button class="calll" onclick="dabaya('+' )">+</button>
+      </div>
+
+      <div>
+        <button onclick="dabaya(4 )">4</button>
+        <button onclick="dabaya(5 )">5</button>
+        <button onclick="dabaya(6 )">6</button>
+        <button class="calll" onclick="dabaya( '-')">-</button>
+      </div>
+
+      <div>
+        <button onclick="dabaya( 1)">1</button>
+        <button onclick="dabaya( 2)">2</button>
+        <button onclick="dabaya( 3)">3</button>
+      
+       
+        <button class="calll" onclick="dabaya( '*')">x</button>
+      </div>
+
+      <div>
+        <button class="calll" onclick="dabaya('+/-')">+/-</button>
+        <button onclick="dabaya( 0)">0</button>
+        <button class="calll" onclick="dabaya('.')">.</button>
+
+        <button class="call" onclick="eq()">=</button>
+       
+      </div>
     </div>
 
-    <div>
-        <button  onclick="dabaya( 3)"> 3 </button>
-        <button  onclick="dabaya( 2)"> 2 </button>
-        <button  onclick="dabaya( 1)"> 1 </button>
-        <button  onclick="dabaya( '*')"> x </button>
-        </div>
-
-        <div>
-            <button  onclick="dabaya( 0)"> 0 </button>
-            <button  onclick="dabaya( '%')"> % </button>
-            <button class="call"  onclick="eq()"> = </button>
-            <button  onclick="dabaya( '/')"> / </button>
-            </div>
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
